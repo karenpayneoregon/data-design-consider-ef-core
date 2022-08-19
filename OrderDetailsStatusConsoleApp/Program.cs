@@ -47,7 +47,6 @@ namespace OrderDetailsStatusConsoleApp
 
             Console.WriteLine();
 
-            //Console.WriteLine();
             var statusCodes = await DataOperations.OrderStatusList();
             foreach (var code in statusCodes)
             {

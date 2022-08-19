@@ -9,11 +9,13 @@
 
 	<ItemGroup>
 		<None Remove="Database scripts\readme.md" />
+		<None Remove="Database scripts\Various.sql" />
 		<None Remove="readme.md" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<Content Include="Database scripts\readme.md" />
+		<Content Include="Database scripts\Various.sql" />
 		<Content Include="readme.md" />
 	</ItemGroup>
 
